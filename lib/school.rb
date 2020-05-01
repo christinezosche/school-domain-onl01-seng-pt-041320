@@ -4,6 +4,10 @@ class School
     @name = name
   end
   
+  def initialize(roster)
+    roster = {roster}
+  end
+  
   def add_student(name, grade)
     if roster.include?(:grade)
       roster[:grade] << "#{name}"
