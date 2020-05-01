@@ -6,12 +6,12 @@ class School
   
   roster = {}
   
-  def add_student(name, grade)
+  def add_student(student_name, grade)
     if roster.include?(grade)
-      roster[grade] << "#{name}"
+      roster[grade] << "#{student_nameent_name}"
     else
       roster[grade] = []
-      roster[grade] << "#{name}"
+      roster[grade] << "#{student_name}"
     end
   end
 end
