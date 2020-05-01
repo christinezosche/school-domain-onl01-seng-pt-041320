@@ -4,9 +4,7 @@ class School
     @name = name
   end
   
-  def initialize(roster)
-    roster = {}
-  end
+  roster = {}
   
   def add_student(name, grade)
     if roster.include?(:grade)
