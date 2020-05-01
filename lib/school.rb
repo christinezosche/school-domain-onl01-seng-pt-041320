@@ -1,6 +1,6 @@
 class School
   
-  def initialize(name, roster = Hash.new)
+  def initialize(name, roster = {})
     @name = name
   end
   
